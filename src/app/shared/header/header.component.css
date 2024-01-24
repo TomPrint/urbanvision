@@ -1,0 +1,6 @@
+.header-bg {
+    background-image: url('src\assets\23.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Text color on top of the image */
+  }

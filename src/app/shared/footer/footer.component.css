@@ -1,0 +1,16 @@
+.fixed-footer {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+    .fixed-footer {
+        position: relative;
+        width: auto;
+    }
+}
