@@ -4,7 +4,7 @@
     text-align: center;
     position: fixed;
     bottom: 0;
-
+    width: 100%; /* Set width to 100% to stretch across the whole page */
 }
 
 /* Media query for mobile screens */
