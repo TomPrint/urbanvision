@@ -8,6 +8,20 @@
 .icon-hover-color:hover i,
 .icon-hover-color:hover span {
   color: #3498db; /* Light blue color on hover */
-  cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+.section-image {
+  background-image: url('src\assets\camera5.jpg');
+  height: 250px;
+  width: 580px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  /* Adjust the size for screens smaller than 768 pixels (e.g., mobile) */
+  .section-image {
+    width: 150%; /* Set the width to 100% for smaller screens */
+    height: 200px; /* Set the height to your desired value for smaller screens */
+  }
+}
