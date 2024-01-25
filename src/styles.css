@@ -10,3 +10,6 @@
     --background-color: #8e8181;
 }
 
+.text-3d {
+    text-shadow: 3px 3px 3px #333; /* Adjust the shadow values and color as needed */
+  }

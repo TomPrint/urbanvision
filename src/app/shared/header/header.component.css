@@ -7,13 +7,13 @@
 
 
   .logo {
-    background-image: url('src\assets\logo.png');
-    background-size: cover;
+    background-image: url('src\assets\logouv.jpg');
+    background-size: contain;
     background-position: center;
     color: white;
-    height: 100px;
-    width: 100px; /* Set a fixed width to create a circular shape */
-    border-radius: 50%; /* Make it a circle using border-radius */
+    height: 100px; /* Set the desired height */
+    width: 200px; /* Set the desired width */
     overflow: hidden; /* Hide any overflow content */
     margin-bottom: 20px; /* Add margin to separate the logo from other elements */
 }
+
