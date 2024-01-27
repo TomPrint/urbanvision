@@ -5,11 +5,10 @@
     margin-bottom: 20px;
   }
   
-  .icon-hover-color:hover i,
-  .icon-hover-color:hover span {
+  .icon-hover-color:hover {
     color: #3498db; /* Light blue color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
-  }
+}
 
   .section-image {
     background-image: url('src\assets\4.jpg'); /* Replace with your image path */
@@ -18,3 +17,11 @@
     color: white; /* Text color on top of the image */
   }
   
+  @media (max-width: 767px) {
+    .navbar-nav {
+      flex-direction: row !important;
+    }
+    .navbar-nav .nav-item {
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+  }
