@@ -22,7 +22,7 @@
     color: white; /* Text color on top of the image */
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .navbar-nav {
       flex-direction: row !important;
     }
