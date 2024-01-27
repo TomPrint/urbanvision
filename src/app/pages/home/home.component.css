@@ -10,6 +10,11 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+.navbar-nav .nav-link:hover {
+  color: #3498db; /* Light blue color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
   .section-image {
     background-image: url('src\assets\4.jpg'); /* Replace with your image path */
     background-size: cover;
