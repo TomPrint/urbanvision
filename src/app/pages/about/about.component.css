@@ -18,10 +18,10 @@
   background-position: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   /* Adjust the size for screens smaller than 768 pixels (e.g., mobile) */
   .section-image {
-    width: 150%; /* Set the width to 100% for smaller screens */
+    width: 80%; /* Set the width to 100% for smaller screens */
     height: 200px; /* Set the height to your desired value for smaller screens */
   }
 }

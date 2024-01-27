@@ -13,6 +13,7 @@ import { TermsConditionsComponent } from './pages/terms-conditions/terms-conditi
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CarouselComponent } from './shared/carousel/carousel.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
