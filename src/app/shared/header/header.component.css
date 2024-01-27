@@ -2,13 +2,20 @@
     background-image: url('src\assets\23.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
+    color: white; /* Text color on top of the image */
   }
 
 
-  
+  .logo {
+    background-size: contain; 
+    background-position: center;
+    color: white;
+    overflow: hidden;
+  }
+
   img {
-    max-width: 100%;
-    height: auto;
-    max-height: 100px; /* You can adjust this if needed */
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 100px; /* Set the maximum height if needed */
   }
 
