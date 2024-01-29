@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "urbanvision-228be": {
+      "hosting": {
+        "urbanvision": [
+          "urbanvision-228be"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "urbanvision-228be"
+  }
+}

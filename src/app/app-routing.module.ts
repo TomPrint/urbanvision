@@ -7,10 +7,10 @@ import { TermsConditionsComponent } from './pages/terms-conditions/terms-conditi
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent }
   // { path: 'about-us', component: AboutComponent },
   // { path: 'contact', component: ContactComponent },
-  { path: 'terms', component: TermsConditionsComponent},
+
 ];
 
 @NgModule({
