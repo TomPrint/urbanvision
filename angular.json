@@ -9,10 +9,20 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "pl",
+        "locales": {
+            "en": {
+              "translation":"src/locale/messages.en.xlf"
+            }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": false,
+            "aot": true,
             "outputPath": "dist/urbanvision",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -34,6 +44,13 @@
             ]
           },
           "configurations": {
+            "en": {
+              "localize": [
+                "en"
+              ],
+              "outputPath": "dist/urbanvision/",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "budgets": [
                 {
@@ -63,6 +80,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "en": {
+              "browserTarget": "urbanvision:build:en"
+            },
             "production": {
               "browserTarget": "urbanvision:build:production"
             },
@@ -73,9 +93,14 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
           "options": {
-            "browserTarget": "urbanvision:build"
+            "browserTarget": "urbanvision:build",
+            "format": "xlf2",
+            "outputPath": "src/locale",
+            "targetFiles": [
+              "messages.en.xlf"
+            ]
           }
         },
         "test": {

@@ -1,9 +1,25 @@
 {
-  "hosting": [
-    {
+  "hosting": {
       "target": "urbanvision",
-      "source": ".",
-      "frameworksBackend": {}
+      "public": "dist/urbanvision/",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/en/**",
+          "destination": "/en/index.html"
+        },
+        {
+          "source": "/pl/**",
+          "destination": "/pl/index.html"
+        }
+      ],
+      "i18n": {
+        "root": "/"
+      }
     }
-  ]
-}
+  }
+  
