@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="pl">
+  <file id="ngi18n" original="ng.template">
+    <unit id="3526511374475876004">
+      <segment>
+        <source>KONTAKT</source>
+      </segment>
+    </unit>
+    <unit id="5092329916187286868">
+      <segment>
+        <source>O NAS</source>
+      </segment>
+    </unit>
+    <unit id="683396027916833620">
+      <segment>
+        <source>OFERTA</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

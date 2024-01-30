@@ -1,0 +1,22 @@
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="pl" trgLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="683396027916833620">
+      <segment state="initial">
+        <source>OFFER</source>
+        <target>OFFER</target>
+      </segment>
+    </unit>
+    <unit id="5092329916187286868">
+      <segment state="initial">
+        <source>COMPANY</source>
+        <target>COMPANY</target>
+      </segment>
+    </unit>
+    <unit id="3526511374475876004">
+      <segment state="initial">
+        <source>CONTACT</source>
+        <target>CONTACT</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -21,6 +21,11 @@
     background-position: center;
     color: white; /* Text color on top of the image */
   }
+
+  .language-icon {
+    height: 10px;
+    opacity: 0.9;
+}
   
   @media (max-width: 991px) {
     .navbar-nav {

@@ -1,22 +1,99 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, OnDestroy, ElementRef } from '@angular/core';
 import * as AOS from 'aos';
+
+interface CounterInfo {
+  counter: any;
+  property: string;
+  max: number;
+  interval: number; // Add an interval property
+}
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
-export class AboutComponent implements AfterViewInit {
+export class AboutComponent implements AfterViewInit, OnDestroy {
+  camera_counter: number = 0;
+  video_counter: number = 0;
+  cable_counter: number = 0;
+  localize_counter: number = 0;
 
-  constructor() {}
+  counters: { [key: string]: CounterInfo } = {
+    camera: { counter: null, property: 'camera_counter', max: 2000, interval: 3 }, // Set individual interval for camera
+    video: { counter: null, property: 'video_counter', max: 200, interval: 100 }, // Set individual interval for video
+    cable: { counter: null, property: 'cable_counter', max: 30, interval: 800 }, // Set individual interval for cable
+    localize: { counter: null, property: 'localize_counter', max: 160, interval: 180} // Set individual interval for localize
+  };
+
+  intersectionObserver!: IntersectionObserver;
+
+  constructor(private elementRef: ElementRef) {}
 
   ngAfterViewInit(): void {
     AOS.init();
+    this.initializeIntersectionObserver();
   }
 
-  // Example method to demonstrate refreshing AOS
-  // Call this method if you dynamically load or change content
-  someContentLoadingMethod() {
+  ngOnDestroy(): void {
+    this.clearCounters();
+    this.disconnectIntersectionObserver();
+  }
+
+  initializeIntersectionObserver(): void {
+    this.intersectionObserver = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        // Element is now visible, start all counters
+        this.startCounters();
+        this.disconnectIntersectionObserver(); // Stop observing once visible
+      }
+    });
+
+    this.intersectionObserver.observe(this.elementRef.nativeElement);
+  }
+
+  startCounters(): void {
+    for (const key in this.counters) {
+      if (this.counters.hasOwnProperty(key)) {
+        const counterInfo = this.counters[key];
+        this.startCounter(counterInfo);
+      }
+    }
+  }
+
+  startCounter(counterInfo: CounterInfo): void {
+    counterInfo.counter = setInterval(() => {
+      // Use type assertion here
+      (this as any)[counterInfo.property] = (this as any)[counterInfo.property] +5;
+
+      if ((this as any)[counterInfo.property] === counterInfo.max) {
+        this.clearCounter(counterInfo.counter);
+      }
+    }, counterInfo.interval);
+  }
+
+  clearCounters(): void {
+    for (const key in this.counters) {
+      if (this.counters.hasOwnProperty(key)) {
+        const counterInfo = this.counters[key];
+        this.clearCounter(counterInfo.counter);
+      }
+    }
+  }
+
+  clearCounter(counter: any): void {
+    if (counter) {
+      clearInterval(counter);
+    }
+  }
+
+  disconnectIntersectionObserver(): void {
+    if (this.intersectionObserver) {
+      this.intersectionObserver.disconnect();
+    }
+  }
+
+  someContentLoadingMethod(): void {
     // Assume this method loads or changes content dynamically
     // ...
 
