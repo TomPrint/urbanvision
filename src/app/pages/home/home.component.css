@@ -1,3 +1,4 @@
+
 .separating-line {
     width: 190px;
     height: 3px;
@@ -10,12 +11,12 @@
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-.navbar-nav .nav-link:hover {
+.nav-link:hover {
   color: #3498db; /* Light blue color on hover */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-  .section-image {
+.section-image {
     background-image: url('src\assets\4.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -26,14 +27,9 @@
     height: 10px;
     opacity: 0.9;
 }
-  
-  @media (max-width: 991px) {
-    .navbar-nav {
-      flex-direction: row !important;
-    }
-    .navbar-nav .nav-item {
-      margin-right: 10px; /* Adjust the margin as needed */
-    }
-  }
 
-  
+.shadow-bottom{
+  box-shadow: 0 0
+  px 15px -5px gray;
+}
+
