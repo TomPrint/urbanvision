@@ -8,14 +8,20 @@
     </unit>
     <unit id="5092329916187286868">
       <segment state="initial">
-        <source>COMPANY</source>
-        <target>COMPANY</target>
+        <source>ABOUT US</source>
+        <target>ABOUT US</target>
       </segment>
     </unit>
     <unit id="3526511374475876004">
       <segment state="initial">
         <source>CONTACT</source>
         <target>CONTACT</target>
+      </segment>
+    </unit>
+    <unit id="473652679990402860">
+      <segment state="initial">
+        <source>See and know</source>
+        <target>See and know</target>
       </segment>
     </unit>
   </file>
