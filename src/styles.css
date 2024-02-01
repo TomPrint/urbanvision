@@ -11,7 +11,8 @@
 }
 
 .text-3d {
-    text-shadow: 3px 3px 3px #333; /* Adjust the shadow values and color as needed */
+    text-shadow: 3px 3px 3px #333;
+    margin-bottom: 120px; /* Adjust the shadow values and color as needed */
   }
 
 @media (min-width:600px) {
