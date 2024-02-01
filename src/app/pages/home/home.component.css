@@ -23,11 +23,6 @@
     color: white; /* Text color on top of the image */
   }
 
-  .language-icon {
-    height: 10px;
-    opacity: 0.9;
-}
-
 .shadow-bottom{
   box-shadow: 0 0
   px 15px -5px gray;

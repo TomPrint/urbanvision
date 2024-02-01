@@ -19,3 +19,7 @@
     max-height: 100px; /* Set the maximum height if needed */
   }
 
+.language-icon {
+  height: 10px;
+  opacity: 0.9;
+}
