@@ -12,6 +12,7 @@ import { CookiePopupComponent } from './shared/cookie-popup/cookie-popup.compone
 import { TermsConditionsComponent } from './pages/terms-conditions/terms-conditions.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CarouselComponent } from './shared/carousel/carousel.component';
+import { DetailComponent } from './pages/detail/detail.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     CookiePopupComponent,
     TermsConditionsComponent,
     NavbarComponent,
-    CarouselComponent
+    CarouselComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,

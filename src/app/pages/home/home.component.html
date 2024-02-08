@@ -34,29 +34,38 @@
 
 
 <div class="wrapper-background mb-3 mt-3">
-  <section class="pt-4" id="oferta" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">
+  <div id="oferta" class="mb-2" >
+  <section class="pt-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">
     <div id="animated-container" class="container text-center d-flex flex-column align-items-center shadow-lg p-5 corners">
       <h2 class="mb-4">OFERTA</h2>
       <div id="gradient-overlay" class="separating-line mb-4"></div> <!-- Separating Line -->
       <ul class="list-group list-group-flush">
         <li class="list-group-item d-flex justify-content-between align-items-center icon-hover-color">
-          <a class="nav-link text-justify">
+          <a class="nav-link text-justify" routerLink="/detail" [queryParams]="{type: 'cctv', title: 'Instalacja systemów wizyjnych telewizji przemysłowej CCTV'}">
             <i class="material-icons md-48">videocam</i> Instalacja systemów wizyjnych telewizji przemysłowej CCTV
           </a>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-center icon-hover-color">
-          <a class="nav-link text-justify">
+          <a class="nav-link text-justify" routerLink="/detail" [queryParams]="{type: 'access-control', title: 'Instalacja kontroli dostępu'}">
             <i class="material-icons md-48">fingerprint</i> Instalacja kontroli dostępu
           </a>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-center icon-hover-color">
-          <a class="nav-link text-justify">
+          <a class="nav-link text-justify" routerLink="/detail" [queryParams]="{type: 'alarm-systems', title: 'Instalacja systemów alarmowych'}">
             <i class="material-icons md-48">notifications</i> Instalacja systemów alarmowych
           </a>
         </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center icon-hover-color">
+          <a class="nav-link text-justify" routerLink="/detail" [queryParams]="{type: 'other-services', title: 'Inne usługi według potrzeb'}">
+            <i class="material-icons md-48">extension</i> Inne usługi według potrzeb
+          </a>
+        </li>  
       </ul>
     </div>
   </section>
+</div>
+
+
 
   <section class="py-2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">
     <div class="container my-5">

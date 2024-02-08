@@ -7,20 +7,23 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./cookie-popup.component.css']
 })
 export class CookiePopupComponent implements OnInit {
-  showPopup: boolean = true;
+  showPopup: boolean | undefined;
 
   constructor(private cookieService: CookieService) { }
 
   ngOnInit(): void {
-    // Check if the cookie exists
-    if (!this.cookieService.check('cookieConsent')) {
-      this.showPopup = true;
+    // Check if the cookie exists and its value
+    const cookieConsent = this.cookieService.get('cookieConsent');
+    if (cookieConsent === 'accepted') {
+      this.showPopup = false; // If user accepted cookies, hide the popup
+    } else {
+      this.showPopup = true; // Otherwise, show the popup
     }
   }
 
   acceptCookies(): void {
-    // Set the cookie for 1 year
-    this.cookieService.set('cookieConsent', 'accepted', 365);
+    // Set the cookie for 30 days
+    this.cookieService.set('cookieConsent', 'accepted', 30);
     this.showPopup = false;
   }
 
@@ -28,8 +31,5 @@ export class CookiePopupComponent implements OnInit {
     // Set the cookie for 1 day to remember the user's choice
     this.cookieService.set('cookieConsent', 'rejected', 1);
     this.showPopup = false;
-    
-    // Optionally, you can delete other cookies here if they were set before the user made a choice
-    // this.cookieService.delete('otherCookieName');
   }
 }

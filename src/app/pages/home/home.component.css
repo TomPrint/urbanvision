@@ -1,10 +1,5 @@
 
-.separating-line {
-    width: 190px;
-    height: 3px;
-    background-color: #3498db; /* Light blue color */
-    margin-bottom: 20px;
-  }
+
   
   .icon-hover-color:hover {
     color: #3498db; /* Light blue color on hover */
