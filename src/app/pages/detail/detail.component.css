@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .mobile-text {
+      font-size: 0.985rem; /* Adjust the size as needed */
+    }
+  }
