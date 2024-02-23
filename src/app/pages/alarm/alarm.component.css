@@ -1,0 +1,31 @@
+.border-blue {
+    border-color: #3498db !important; /* Sets the border color to a specific shade of blue */
+}
+
+.bluetheme{
+    color: #3498db
+}
+
+.images-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the container */
+    padding: 10px; /* Padding around images */
+}
+
+.section-image {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 40%;
+    flex: 1; /* Each image takes equal width */
+}
+
+@media (max-width: 770px) {
+    /* Adjust the size for screens smaller than 768 pixels (e.g., mobile) */
+    .section-image {
+      width: 60%; /* Set the width to 100% for smaller screens */
+      height: 200px; /* Set the height to your desired value for smaller screens */
+    }
+  }

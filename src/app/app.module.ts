@@ -12,7 +12,10 @@ import { CookiePopupComponent } from './shared/cookie-popup/cookie-popup.compone
 import { TermsConditionsComponent } from './pages/terms-conditions/terms-conditions.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CarouselComponent } from './shared/carousel/carousel.component';
-import { DetailComponent } from './pages/detail/detail.component';
+import { CctvComponent } from './pages/cctv/cctv.component';
+import { AccessComponent } from './pages/access/access.component';
+import { AlarmComponent } from './pages/alarm/alarm.component';
+import { OtherComponent } from './pages/other/other.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { DetailComponent } from './pages/detail/detail.component';
     TermsConditionsComponent,
     NavbarComponent,
     CarouselComponent,
-    DetailComponent
+    CctvComponent,
+    AccessComponent,
+    AlarmComponent,
+    OtherComponent
   ],
   imports: [
     BrowserModule,
