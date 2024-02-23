@@ -25,3 +25,18 @@
     height: 200px; /* Set the height to your desired value for smaller screens */
   }
 }
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  flex: 1;
+  width:220px;
+  max-width: 250px; /* Set a max-width to prevent buttons from stretching too wide */
+  margin: 1px; /* Adjust margin as needed */
+}
+
+

@@ -16,14 +16,14 @@ interface CounterInfo {
 export class AboutComponent implements AfterViewInit, OnDestroy {
   camera_counter: number = 0;
   video_counter: number = 0;
-  cable_counter: number = 0;
+  // cable_counter: number = 0;
   localize_counter: number = 0;
 
   counters: { [key: string]: CounterInfo } = {
-    camera: { counter: null, property: 'camera_counter', max: 2000, interval: 3 }, // Set individual interval for camera
-    video: { counter: null, property: 'video_counter', max: 200, interval: 100 }, // Set individual interval for video
-    cable: { counter: null, property: 'cable_counter', max: 30, interval: 800 }, // Set individual interval for cable
-    localize: { counter: null, property: 'localize_counter', max: 160, interval: 180} // Set individual interval for localize
+    camera: { counter: null, property: 'camera_counter', max: 10000, interval: 5}, // Set individual interval for camera
+    video: { counter: null, property: 'video_counter', max: 2000, interval: 35 }, // Set individual interval for video
+    // cable: { counter: null, property: 'cable_counter', max: 30, interval: 800 }, // Set individual interval for cable
+    localize: { counter: null, property: 'localize_counter', max: 160, interval: 500} // Set individual interval for localize
   };
 
   intersectionObserver!: IntersectionObserver;
@@ -64,7 +64,7 @@ export class AboutComponent implements AfterViewInit, OnDestroy {
   startCounter(counterInfo: CounterInfo): void {
     counterInfo.counter = setInterval(() => {
       // Use type assertion here
-      (this as any)[counterInfo.property] = (this as any)[counterInfo.property] +5;
+      (this as any)[counterInfo.property] = (this as any)[counterInfo.property] +10;
 
       if ((this as any)[counterInfo.property] === counterInfo.max) {
         this.clearCounter(counterInfo.counter);
