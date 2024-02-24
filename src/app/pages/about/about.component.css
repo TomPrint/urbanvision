@@ -2,13 +2,14 @@
   width: 190px;
   height: 3px;
   background-color: #3498db; /* Light blue color */
+  margin: 0 auto; /* Horizontally center the separating line */
   margin-bottom: 20px;
 }
 
-.icon-hover-color:hover i,
+/* .icon-hover-color:hover i,
 .icon-hover-color:hover span {
   color: #3498db; /* Light blue color on hover */
-}
+ */
 
 .section-image {
   background-image: url('src\assets\onas.png');
@@ -39,4 +40,8 @@
   margin: 1px; /* Adjust margin as needed */
 }
 
-
+@media (max-width: 767px) {
+  .deactivate-on-mobile {
+    pointer-events: none;
+  }
+}
