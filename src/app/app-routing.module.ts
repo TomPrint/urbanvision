@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'cctv', component: CctvComponent },
   { path: 'access', component: AccessComponent },
   { path: 'alarm', component: AlarmComponent },
-  { path: 'other', component: OtherComponent },
+  // { path: 'other', component: OtherComponent },
 
   // { path: 'about-us', component: AboutComponent },
   // { path: 'contact', component: ContactComponent },
