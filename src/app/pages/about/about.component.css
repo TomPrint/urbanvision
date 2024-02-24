@@ -40,6 +40,10 @@
   margin: 1px; /* Adjust margin as needed */
 }
 
+.deactivate-on-mobile {
+  pointer-events: none;
+}
+
 @media (max-width: 767px) {
   .deactivate-on-mobile {
     pointer-events: none;
