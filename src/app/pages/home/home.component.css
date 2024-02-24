@@ -1,7 +1,4 @@
-
-
-  
-  .icon-hover-color:hover {
+ .icon-hover-color:hover {
     color: #3498db; /* Light blue color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
@@ -26,5 +23,19 @@
 @media (max-width: 767px) {
   .hide-on-mobile {
     display: none !important;
+  }
+}
+
+.border-blue {
+  border-color: #3498db !important; /* Sets the border color to a specific shade of blue */
+}
+
+.bluetheme{
+  color: #3498db
+}
+
+@media (max-width: 767px) {
+  .center-mobile  {
+      text-align: center !important;
   }
 }
