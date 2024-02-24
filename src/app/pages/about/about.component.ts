@@ -1,7 +1,6 @@
 import { Component, AfterViewInit, OnDestroy, ElementRef, OnInit } from '@angular/core';
 import * as AOS from 'aos';
-import { Router, NavigationEnd } from '@angular/router';
-import { filter } from 'rxjs/operators';
+
 
 interface CounterInfo {
   counter: any;
@@ -30,16 +29,11 @@ export class AboutComponent implements AfterViewInit, OnDestroy, OnInit {
 
   intersectionObserver!: IntersectionObserver;
 
-  constructor(private elementRef: ElementRef, private router: Router) {}
+  constructor(private elementRef: ElementRef) {}
 
-  ngOnInit() {
-    this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd)
-    ).subscribe(() => {
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-      }, 100); // Adjust delay as necessary
-    });}
+ngOnInit(): void {
+  
+}
 
 
   ngAfterViewInit(): void {
