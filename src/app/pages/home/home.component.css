@@ -12,7 +12,7 @@
 }
 
 .section-image {
-    background-image: url('src\assets\4.jpg'); /* Replace with your image path */
+    background-image: url('src\assets\camera_banner.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     color: white; /* Text color on top of the image */
@@ -23,3 +23,8 @@
   px 15px -5px gray;
 }
 
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
