@@ -1,5 +1,7 @@
-import { Component, AfterViewInit, OnDestroy, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, OnDestroy, ElementRef, OnInit } from '@angular/core';
 import * as AOS from 'aos';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 interface CounterInfo {
   counter: any;
@@ -13,7 +15,7 @@ interface CounterInfo {
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
-export class AboutComponent implements AfterViewInit, OnDestroy {
+export class AboutComponent implements AfterViewInit, OnDestroy, OnInit {
   camera_counter: number = 0;
   video_counter: number = 0;
   // cable_counter: number = 0;
@@ -28,7 +30,17 @@ export class AboutComponent implements AfterViewInit, OnDestroy {
 
   intersectionObserver!: IntersectionObserver;
 
-  constructor(private elementRef: ElementRef) {}
+  constructor(private elementRef: ElementRef, private router: Router) {}
+
+  ngOnInit() {
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 100); // Adjust delay as necessary
+    });}
+
 
   ngAfterViewInit(): void {
     AOS.init();
