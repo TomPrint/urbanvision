@@ -3,25 +3,343 @@
     <unit id="683396027916833620">
       <segment state="initial">
         <source>OFERTA</source>
-        <target>OFERTA</target>
+        <target>OFFER</target>
       </segment>
     </unit>
     <unit id="5092329916187286868">
       <segment state="initial">
         <source>O NAS</source>
-        <target>O NAS</target>
+        <target>ABOUT US</target>
       </segment>
     </unit>
     <unit id="3526511374475876004">
       <segment state="initial">
         <source>KONTAKT</source>
-        <target>KONTAKT</target>
+        <target>CONTACT</target>
       </segment>
     </unit>
     <unit id="473652679990402860">
       <segment state="initial">
         <source>Widzisz i wiesz</source>
-        <target>Widzisz i wiesz</target>
+        <target>See and know</target>
+      </segment>
+    </unit>
+    <unit id="6308939475441249881">
+      <segment state="initial">
+        <source> Od <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;">2014</pc> roku działamy na rynku z pełnym zaangażowaniem i energią. Jesteśmy ekipą, która nie boi się wyzwań. Montujemy instalacje bez niszczenia elewacji (bez bruzdowo), bo wierzymy, że nawet w pracy budowlanej liczy się estetyka. Niezależnie od roli - czy to jako podwykonawca, czy główny wykonawca - zawsze dajemy z siebie wszystko. Naszą pasją jest nie tylko wykonywanie doskonałych instalacji, ale także inspiracja do tworzenia nowatorskich rozwiązań z zastosowaniem nowoczesnych technologii. </source>
+        <target> Since <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;">2014</pc> we have been operating in the market with full commitment and energy. We are a team that is not afraid of challenges. We install systems without damaging facades (non-intrusively), because we believe that aesthetics matter even in construction work. Regardless of the role - whether as a subcontractor or main contractor - we always give our all. Our passion lies not only in delivering excellent installations but also in inspiring innovative solutions using modern technologies.</target>
+      </segment>
+    </unit>
+    <unit id="6879273613870408963">
+      <segment state="initial">
+        <source>Z powodzeniem realizujemy inwestycje takie jak:</source>
+        <target>We successfully carry out investments such as:</target>
+      </segment>
+    </unit>
+    <unit id="6292401734664872942">
+      <segment state="initial">
+        <source>INSTALACJE CCTV</source>
+        <target>CCTV INSTALLATIONS</target>
+      </segment>
+    </unit>
+    <unit id="5435085186200043211">
+      <segment state="initial">
+        <source>KONTROLA DOSTĘPU</source>
+        <target>ACCESS CONTROL</target>
+      </segment>
+    </unit>
+    <unit id="5163643923718840159">
+      <segment state="initial">
+        <source>SYSTEMY ALARMOWE</source>
+        <target>ALARM SYSTEMS</target>
+      </segment>
+    </unit>
+    <unit id="8593934501434375481">
+      <segment state="initial">
+        <source>STEROWANIE BRAM</source>
+        <target>GATE CONTROL</target>
+      </segment>
+    </unit>
+    <unit id="2943646999407161142">
+      <segment state="initial">
+        <source>INTELIGENTNY DOM</source>
+        <target>SMART HOUSE</target>
+      </segment>
+    </unit>
+    <unit id="708411872223928471">
+      <segment state="initial">
+        <source>DETEKCJA POŻARU</source>
+        <target>FIRE DETECTION</target>
+      </segment>
+    </unit>
+    <unit id="3709567100333766960">
+      <segment state="initial">
+        <source>Znamy się na rzeczy i do tej pory:</source>
+        <target>We know our stuff, and so far:</target>
+      </segment>
+    </unit>
+    <unit id="6582259394898421912">
+      <segment state="initial">
+        <source>Zamontowaliśmy już <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{camera_counter}}"/> </pc> szt kamer</source>
+        <target>We have already installed <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{camera_counter}}"/> </pc> units of cameras</target>
+      </segment>
+    </unit>
+    <unit id="2356266757296281268">
+      <segment state="initial">
+        <source>Skonfigurowaliśmy ponad <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"> <ph id="1" equiv="INTERPOLATION" disp="{{video_counter}}"/> </pc> szt rejestratorów</source>
+        <target>We have configured over <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"> <ph id="1" equiv="INTERPOLATION" disp="{{video_counter}}"/> </pc> unitis of recorders</target>
+      </segment>
+    </unit>
+    <unit id="4826365060811768859">
+      <segment state="initial">
+        <source>Wszystko to na ponad <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{localize_counter}}"/></pc> lokalizacjach, prowadzone w bruzdach, peszlach, rurkach i pod elewacją.</source>
+        <target>All of this across over <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span style=&quot;font-weight:600;color: #3498db;&quot;&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{localize_counter}}"/></pc> locations, laid in grooves, conduits, pipes, and under the facade.</target>
+      </segment>
+    </unit>
+    <unit id="1623458485828172924">
+      <segment state="initial">
+        <source>Dzięki naszym instalacjom udało się zatrzymać wielu sprawców wykroczeń</source>
+        <target>Thanks to our installations, we managed to stop many offenders.</target>
+      </segment>
+    </unit>
+    <unit id="7375583541148718383">
+      <segment state="initial">
+        <source>Instalacja kontroli dostępu</source>
+        <target>Access control installation</target>
+      </segment>
+    </unit>
+    <unit id="3940427529837365649">
+      <segment state="initial">
+        <source> W naszej ofercie znajduje się wykonywanie instalacji KD. Realizujemy następujące elementy składowe systemu: </source>
+        <target> In our offer, we provide access control system installation services. We execute the following system components:</target>
+      </segment>
+    </unit>
+    <unit id="7637451074550711106">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż czytników (klawiatury kodowe, czytniki kart magnetycznych, karty RFID) </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of readers (keypad, magnetic card readers, RFID cards) </target>
+      </segment>
+    </unit>
+    <unit id="4918018052668800390">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Kontrolery dostępu (klawiatury szyfrowe) </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Access controllers (keypad)</target>
+      </segment>
+    </unit>
+    <unit id="3193985616299781453">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc>Interfejsy </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc>Interfaces</target>
+      </segment>
+    </unit>
+    <unit id="2478649099431314342">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Urządzenia blokujące (urządzenia wyjściowe realizujące udostępnianie stref chronionych, czyli rygle elektromagnetyczne, zamki elektryczne, bramki, szlabany itp.) </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Blocking devices (output devices providing access to protected areas, such as electromagnetic locks, electric strikes, gates, barriers, etc.)</target>
+      </segment>
+    </unit>
+    <unit id="5966394830480440492">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Akcesoria (klawiatury, czujniki, przyciski wyjścia, wyświetlacze) </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Accessories (keyboards, sensors, exit buttons, displays) </target>
+      </segment>
+    </unit>
+    <unit id="1518499985075297301">
+      <segment state="initial">
+        <source> Urządzenia wejściowe systemu KD wykonujemy w postaci pojedynczych oddzielnych urządzeń lub jako urządzenia zespolone zawierające w jednej obudowie kilka elementów składowych np. czytniki z klawiaturą, czytniki z wyświetlaczem, czytniki z wbudowanym kontrolerem, wyświetlaczem i interfejsem, zwory elektromagnetyczne z wbudowanym czujnikiem otwarcia drzwi itp. </source>
+        <target> We produce input devices of the access control system either as individual standalone devices or as integrated devices containing multiple components in one housing, such as readers with a keyboard, readers with a display, readers with a built-in controller, display, and interface, electromagnetic locks with a built-in door open sensor, etc. </target>
+      </segment>
+    </unit>
+    <unit id="8691220566356511633">
+      <segment state="initial">
+        <source>Instalacja systemów alarmowych</source>
+        <target>Installation of alarm systems</target>
+      </segment>
+    </unit>
+    <unit id="6141800960836210478">
+      <segment state="initial">
+        <source> System sygnalizacji włamania i napadu jest jednym z najbardziej popularnych systemów sygnalizacji zagrożeń. Jego konfiguracja musi skutecznie wykrywać i sygnalizować wtargnięcia intruza (np. włamywacza) do chronionego obiektu, umożliwiać przetwarzanie informacji i obsługę systemu. </source>
+        <target> The intrusion and hold-up alarm system is one of the most popular threat detection systems. Its configuration must effectively detect and signal intruders (e.g., burglars) entering the protected premises, enabling information processing and system management. </target>
+      </segment>
+    </unit>
+    <unit id="8157441114676465464">
+      <segment state="initial">
+        <source> Typowy system sygnalizacji włamania i napadu składa się z: </source>
+        <target> A typical intrusion and hold-up alarm system consists of: </target>
+      </segment>
+    </unit>
+    <unit id="7033521632798848980">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_1</pc> Centrali alarmowej oraz opcjonalnie: ekspanderów wejść/wyjść (moduły rozszerzeń) </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_1</pc> Alarm control panel and optionally: input/output expanders (expansion modules).</target>
+      </segment>
+    </unit>
+    <unit id="6469484060909520302">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_2</pc> Zasilacza systemu wraz z zasilaniem awaryjnym </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_2</pc> Power supply unit of the system along with emergency power supply. </target>
+      </segment>
+    </unit>
+    <unit id="7435486862806976425">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i &gt;">filter_3</pc>Sygnalizatora </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i &gt;">filter_3</pc>Signaler </target>
+      </segment>
+    </unit>
+    <unit id="4234538533401231375">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_4</pc> Manipulatora </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_4</pc> Manipulator</target>
+      </segment>
+    </unit>
+    <unit id="5199651314821297781">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_5</pc> Czujek alarmowych </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme mx-2&quot;&gt;" dispEnd="&lt;/i&gt;">filter_5</pc> Alarm sensors </target>
+      </segment>
+    </unit>
+    <unit id="5362391576552479503">
+      <segment state="initial">
+        <source> Specjalizujemy się w montażu systemów alarmowych JABLOTORN. Układamy okablowanie, montujemy wszystkie elementy systemu oraz programujemy i dostosowujemy instalację alarmową do indywidualnych potrzeb użytkownika. </source>
+        <target> We specialize in installing JABLOTRON alarm systems. We lay down wiring, mount all system components, and program and customize the alarm installation to meet the individual needs of the user.</target>
+      </segment>
+    </unit>
+    <unit id="135613001701351061">
+      <segment state="initial">
+        <source>Instalacja systemów wizyjnych telewizji przemysłowej CCTV</source>
+        <target>Installation of CCTV industrial television visual systems</target>
+      </segment>
+    </unit>
+    <unit id="918042894669037197">
+      <segment state="initial">
+        <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemy od nowa oraz modernizujemy istniejące sieci CCTV. Realizujemy systemy oparte na okablowaniu Coax/Kable koncentryczne oraz UTP/FTP/światłowody, systemy AHD, HDCVI, TVI, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentację niezbędną do prawidłowej eksploatacji systemu. </source>
+        <target> We carry out installations in both &quot;new&quot; and &quot;old&quot; buildings. We install systems from scratch as well as modernize existing CCTV networks. We implement systems based on Coax/Coaxial Cable and UTP/FTP/Fiber Optic cabling, AHD, HDCVi, TVi, CVBS, and IP systems. For each project, we prepare documentation essential for the proper operation of the system. </target>
+      </segment>
+    </unit>
+    <unit id="5826827949548311490">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">videocam</pc> Instalacja systemów wizyjnych telewizji przemysłowej CCTV </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">videocam</pc> Installation of industrial CCTV visual systems </target>
+      </segment>
+    </unit>
+    <unit id="7592642444643673924">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">fingerprint</pc> Instalacja kontroli dostępu </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">fingerprint</pc> Access control installation </target>
+      </segment>
+    </unit>
+    <unit id="3310555233031750295">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">notifications</pc> Instalacja systemów alarmowych </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">notifications</pc> Installation of alarm systems </target>
+      </segment>
+    </unit>
+    <unit id="4382100629903144880">
+      <segment state="initial">
+        <source>Nadzór - Bezpieczeństwo - Konserwacja</source>
+        <target>Supervision - Security - Maintenance</target>
+      </segment>
+    </unit>
+    <unit id="8570238273742733732">
+      <segment state="initial">
+        <source>Jesteśmy liderem w dziedzinie monitoringu i bezpieczeństwa. Świadczymy również usługi związane serwisem i konserwacją systemów CCTV.</source>
+        <target>We are a leader in the field of monitoring and security. We also provide services related to the maintenance and servicing of CCTV systems.</target>
+      </segment>
+    </unit>
+    <unit id="5219528499978873564">
+      <segment state="initial">
+        <source>Konserwacją obejmujemy zarówno spółdzielnie mieszkaniowe jak i wspólnoty. Czuwamy nad prawidłowym działaniem systemu oraz w przypadku wystąpienia awarii reagujemy natychmiastowo, dzięki czemu system działa bez przerwy. Monitorujemy system 24h na dobę, zgrywamy materiały z zdarzeń i dostarczamy je do klienta zarówno w formie fizycznej na DVD, jak i elektronicznej na zewnętrzny serwer w chmurze.</source>
+        <target>Our maintenance services cover both residential cooperatives and communities. We ensure the proper functioning of the system and respond promptly in case of malfunctions, ensuring uninterrupted operation. We monitor the system 24/7, record materials from incidents, and deliver them to the customer both physically on DVD and electronically to an external cloud server.</target>
+      </segment>
+    </unit>
+    <unit id="7806879502713917265">
+      <segment state="initial">
+        <source>Nasze Realizacje:</source>
+        <target>Our achievements:</target>
+      </segment>
+    </unit>
+    <unit id="1800063022217200107">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego systemu monitoringu HDCVi dla Zarząd Oczyszczania Miasta al. Jerozolimskie 11/19 – Generalny Wykonawca - 2017 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new surveillance system HDCVi for the city&apos;s sanitation department al. Jerozolimskie 11/19 – General Contractor - 2017 </target>
+      </segment>
+    </unit>
+    <unit id="7735914299884623541">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż systemu telewizji przemysłowej SM Bródno – Osiedla Wysockiego, Kondratowicza, Toruńska, Podgrodzie – Monitoring CVBS/AHD jako podwykonawca – ponad 200 budynków w latach 2014 - 2017 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an industrial television system SM Bródno – Osiedla Wysockiego, Kondratowicza, Toruńska, Podgrodzie – Monitoring CVBS/AHD - Subcontractor – over 200 buildings over the years 2014 - 2017 </target>
+      </segment>
+    </unit>
+    <unit id="8663444938479368312">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż systemu telewizji przemysłowej SBM Torwar – Monitoring IP jako podwykonawca - 50 budynków – 2019 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an industrial television system SBM Torwar – Monitoring IP as a subcontractor - 50 buildings – 2019 </target>
+      </segment>
+    </unit>
+    <unit id="3349415896700804464">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż systemu telewizji przemysłowej AHD/ IP osiedle Wilno – jako podwykonawca - modernizacja, dostosowanie do podłączenia do centrum monitorowania – Ponarska 6,6a Ul. Zamkowa 1,3,2,4, Pohulanka 10,12 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an industrial television system AHD/ IP Wilno Estate - as a subcontractor - modernization, adaptation for connection to the monitoring center – Ponarska 6,6a Ul. Zamkowa 1,3,2,4, Pohulanka 10,12 </target>
+      </segment>
+    </unit>
+    <unit id="4188861273062084453">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż systemu telewizji przemysłowej IP RSM Ursus – jako podwykonawca – 12 budynków </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an industrial television system IP RSM Ursus – as a subcontractor – 12 buildings </target>
+      </segment>
+    </unit>
+    <unit id="2188294030678912816">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż monitoringu na molo w Płocku, system IP – jako podwykonawca - 2019 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of monitoring system at the pier in Płock, IP system - as a subcontractor - 2019 </target>
+      </segment>
+    </unit>
+    <unit id="109999831472923893">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż kamer, Lewa Conservancy Park, Jersey Zoo / Wyspa Jersey – jako podwykonawca - 2019 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of cameras, Lewa Conservancy Park, Jersey Zoo / Jersey Island - as a subcontractor - 2019 </target>
+      </segment>
+    </unit>
+    <unit id="3140080696705161848">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż monitoringu dla W.M Modzelewskiego 45/50 – 46 kamer – Generalny Wykonawca - 2019 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of surveillance system for W.M. Modzelewski 45/50 - 46 cameras - General Contractor - 2019</target>
+      </segment>
+    </unit>
+    <unit id="8349960747861381485">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż monitoringu na molo w Płocku, system IP – jako podwykonawca -2019 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an IP surveillance system at the pier in Płock - as a subcontractor - 2019</target>
+      </segment>
+    </unit>
+    <unit id="767748911988742527">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego systemu monitoringu WSM Os. Skarpa marymoncka – Generalny wykonawca – 2023 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new monitoring system at WSM Os. Skarpa Marymoncka - General Contractor - 2023</target>
+      </segment>
+    </unit>
+    <unit id="5860092061653867053">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Modernizacja pod Centrum monitorowania systemu monitoringu Os. WILLE LAZUROWA - Generalny wykonawca – 2023 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Modernization under the Monitoring Center of the surveillance system at Os. Wille Lazurowa - General Contractor - 2023</target>
+      </segment>
+    </unit>
+    <unit id="8639975834878395665">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego systemu monitoringu dla Os. Topolowa – SBM Brodno – Generalny wykonawca - 2022 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new monitoring system for Os. Topolowa - SBM Brodno - General Contractor - 2022</target>
+      </segment>
+    </unit>
+    <unit id="5137752803004526773">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego systemu monitoringu dla CEMAT 70’ – Budynek nr 6, Generalny wykonawca – 2023 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new surveillance system for CEMAT 70&apos; - Building No. 6, General Contractor - 2023</target>
+      </segment>
+    </unit>
+    <unit id="278974147939741866">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego sytemu monitoringu i modernizacją istniejącego oraz uruchomieniem systemu powiadamiania ochrony (system alarmowy-przyzywowy) - Os. Rydygiera - 2023 </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new surveillance system, modernization of the existing one, and implementation of a security notification system (alarm-emergency call system) - Os. Rydygiera - 2023</target>
       </segment>
     </unit>
   </file>

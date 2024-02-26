@@ -11,7 +11,7 @@
     "build:de": "ng build --configuration=de",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "i18n:extract": "ng extract-i18n --output-path src/locale"
+    "i18n:extract": "ng-extract-i18n-merge --output-path src/locale"
   },
   "private": true,
   "dependencies": {
