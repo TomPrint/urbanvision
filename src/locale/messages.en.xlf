@@ -2,26 +2,26 @@
   <file id="ngi18n" original="ng.template">
     <unit id="683396027916833620">
       <segment state="initial">
-        <source>OFFER</source>
-        <target>OFFER</target>
+        <source>OFERTA</source>
+        <target>OFERTA</target>
       </segment>
     </unit>
     <unit id="5092329916187286868">
       <segment state="initial">
-        <source>ABOUT US</source>
-        <target>ABOUT US</target>
+        <source>O NAS</source>
+        <target>O NAS</target>
       </segment>
     </unit>
     <unit id="3526511374475876004">
       <segment state="initial">
-        <source>CONTACT</source>
-        <target>CONTACT</target>
+        <source>KONTAKT</source>
+        <target>KONTAKT</target>
       </segment>
     </unit>
     <unit id="473652679990402860">
       <segment state="initial">
-        <source>See and know</source>
-        <target>See and know</target>
+        <source>Widzisz i wiesz</source>
+        <target>Widzisz i wiesz</target>
       </segment>
     </unit>
   </file>
