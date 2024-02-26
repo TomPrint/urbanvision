@@ -21,7 +21,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": false,
+            "localize": true,
             "aot": true,
             "outputPath": "dist/urbanvision",
             "index": "src/index.html",
