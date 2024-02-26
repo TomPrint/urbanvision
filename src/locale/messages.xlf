@@ -256,11 +256,6 @@
         <source> Typowy system sygnalizacji włamania i napadu składa się z: </source>
       </segment>
     </unit>
-    <unit id="8349960747861381485">
-      <segment>
-        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż monitoringu na molo w Płocku, system IP – jako podwykonawca -2019 </source>
-      </segment>
-    </unit>
     <unit id="8570238273742733732">
       <segment>
         <source>Jesteśmy liderem w dziedzinie monitoringu i bezpieczeństwa. Świadczymy również usługi związane serwisem i konserwacją systemów CCTV.</source>
@@ -284,6 +279,21 @@
     <unit id="918042894669037197">
       <segment>
         <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemy od nowa oraz modernizujemy istniejące sieci CCTV. Realizujemy systemy oparte na okablowaniu Coax/Kable koncentryczne oraz UTP/FTP/światłowody, systemy AHD, HDCVI, TVI, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentację niezbędną do prawidłowej eksploatacji systemu. </source>
+      </segment>
+    </unit>
+    <unit id="1034645408109734905">
+      <segment>
+        <source>© 2024 Urban Vision. Wszystkie prawa zastrzeżone.</source>
+      </segment>
+    </unit>
+    <unit id="1619135828024531161">
+      <segment>
+        <source>Firma Urban Vision powstała z połącznia firm „AmTech” oraz „Pure Engineering”.</source>
+      </segment>
+    </unit>
+    <unit id="40358370771419318">
+      <segment>
+        <source>Polityka Prywatności</source>
       </segment>
     </unit>
   </file>

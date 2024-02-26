@@ -306,12 +306,6 @@
         <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of surveillance system for W.M. Modzelewski 45/50 - 46 cameras - General Contractor - 2019</target>
       </segment>
     </unit>
-    <unit id="8349960747861381485">
-      <segment state="initial">
-        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż monitoringu na molo w Płocku, system IP – jako podwykonawca -2019 </source>
-        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of an IP surveillance system at the pier in Płock - as a subcontractor - 2019</target>
-      </segment>
-    </unit>
     <unit id="767748911988742527">
       <segment state="initial">
         <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego systemu monitoringu WSM Os. Skarpa marymoncka – Generalny wykonawca – 2023 </source>
@@ -340,6 +334,24 @@
       <segment state="initial">
         <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Montaż nowego sytemu monitoringu i modernizacją istniejącego oraz uruchomieniem systemu powiadamiania ochrony (system alarmowy-przyzywowy) - Os. Rydygiera - 2023 </source>
         <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 bluetheme&quot;&gt;" dispEnd="&lt;/i&gt;">done</pc> Installation of a new surveillance system, modernization of the existing one, and implementation of a security notification system (alarm-emergency call system) - Os. Rydygiera - 2023</target>
+      </segment>
+    </unit>
+    <unit id="1619135828024531161">
+      <segment state="initial">
+        <source>Firma Urban Vision powstała z połącznia firm „AmTech” oraz „Pure Engineering”.</source>
+        <target>The company Urban Vision was formed through the merger of the companies 'AmTech' and 'Pure Engineering.</target>
+      </segment>
+    </unit>
+    <unit id="40358370771419318">
+      <segment state="initial">
+        <source>Polityka Prywatności</source>
+        <target>Privacy Policy</target>
+      </segment>
+    </unit>
+    <unit id="1034645408109734905">
+      <segment state="initial">
+        <source>© 2024 Urban Vision. Wszystkie prawa zastrzeżone.</source>
+        <target>© 2024 Urban Vision. All rights reserved.</target>
       </segment>
     </unit>
   </file>
