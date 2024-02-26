@@ -39,3 +39,11 @@
       text-align: center !important;
   }
 }
+
+@media (min-width: 992px) {
+  #animated-container {
+    max-width: 800px; /* Adjust the width as per your requirement */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
