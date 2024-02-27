@@ -296,5 +296,75 @@
         <source>Polityka Prywatności</source>
       </segment>
     </unit>
+    <unit id="1023002740187135452">
+      <segment>
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;bi bi-x-lg me-2&quot;&gt;" dispEnd="&lt;/i&gt; &lt;!-- X icon --&gt;"/> Odrzuć </source>
+      </segment>
+    </unit>
+    <unit id="1622191302709820221">
+      <segment>
+        <source> Administrator danych osobowych – MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, UL. ELBLĄSKA 14, 01-737 WARSZAWA.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> RODO – Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE. Ustawa – ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych. </source>
+      </segment>
+    </unit>
+    <unit id="1984012811225505118">
+      <segment>
+        <source> Niniejsza Polityka Prywatności określa zasady przetwarzania danych osobowych oraz prawa Użytkowników, zawiera informacje dotyczące Administratora Danych Osobowych, a także wykorzystania plików cookie. Dane osobowe Użytkowników są chronione przez MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ zgodnie z przepisami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) oraz Sprostowania do Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) oraz Ustawy z dnia 10 maja 2018 r. o ochronie danych osobowych. </source>
+      </segment>
+    </unit>
+    <unit id="2039032028521293405">
+      <segment>
+        <source>Warunki Prywatności</source>
+      </segment>
+    </unit>
+    <unit id="2995189249117897866">
+      <segment>
+        <source> Plik cookie to krótki tekst wysyłany do przeglądarki internetowej przez serwis internetowy, który w danej chwili odwiedza Użytkownik. Dzięki czemu serwis zapamiętuje informacje o ustawieniach przeglądarki, a następna wizyta Użytkownika na tej stronie jest bardziej efektywna, pozwalając na łatwiejsze logowanie do usług Administratora. Administrator może przetwarzać dane zawarte w plikach cookie, w następującym celu: dostosowanie funkcjonalności dostarczanych przez Administratora, zgodnie z oczekiwaniami Użytkownika, wliczając treści reklamowe i statystyki, co odbywa się anonimowo. </source>
+      </segment>
+    </unit>
+    <unit id="3450719482199979609">
+      <segment>
+        <source>5) Pliki Cookie</source>
+      </segment>
+    </unit>
+    <unit id="3778613158132542547">
+      <segment>
+        <source>2) Podstawowe Pojęcia</source>
+      </segment>
+    </unit>
+    <unit id="3937950154165806909">
+      <segment>
+        <source>4) Odbiorca Danych Osobowych</source>
+      </segment>
+    </unit>
+    <unit id="4466996909212379717">
+      <segment>
+        <source> Badanie satysfakcji Użytkownika oraz marketing promujący Administratora i jego produkty oraz usługi, co stanowi spełnienie warunku zgodności z prawem przetwarzania danych, określonego w art. 6 ust. 1 lit. f RODO, jako niezbędnych do celów wynikających z prawnie uzasadnionych interesów realizowanych przez Administratora. </source>
+      </segment>
+    </unit>
+    <unit id="4568801660238319132">
+      <segment>
+        <source>1) Postanowienia ogólne</source>
+      </segment>
+    </unit>
+    <unit id="7224685198752994439">
+      <segment>
+        <source> Administrator może przekazać dane osobowe, wskazane w pkt 16, podmiotom uprawnionym do otrzymania danych osobowych na podstawie przepisów prawa, decyzji organu administracji publicznej lub orzeczenia sądowego. </source>
+      </segment>
+    </unit>
+    <unit id="7823807404890555039">
+      <segment>
+        <source> W sprawach nieuregulowanych w Polityce Prywatności stosuje się przepisy prawa polskiego. Administrator może dokonać zmian w Polityce Prywatności w każdym czasie. Użytkownik odwiedzający stronę Administratora po raz pierwszy, zostanie poproszony o zapoznanie się z Polityką Prywatności. W każdym czasie wizyty na stronie internetowej Administratora, Użytkownik może także zapoznać się z aktualną Polityką Prywatności, stosując dedykowany odnośnik na dole strony. </source>
+      </segment>
+    </unit>
+    <unit id="8127133493739855106">
+      <segment>
+        <source>6) Postanowienia Końcowe</source>
+      </segment>
+    </unit>
+    <unit id="906912328949428937">
+      <segment>
+        <source>3) Cel Przetwarzania Danych Osobowych</source>
+      </segment>
+    </unit>
   </file>
 </xliff>
