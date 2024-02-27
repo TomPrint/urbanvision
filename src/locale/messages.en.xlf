@@ -339,7 +339,7 @@
     <unit id="1619135828024531161">
       <segment state="initial">
         <source>Firma Urban Vision powstała z połącznia firm „AmTech” oraz „Pure Engineering”.</source>
-        <target>The company Urban Vision was formed through the merger of the companies 'AmTech' and 'Pure Engineering.</target>
+        <target>The company Urban Vision was formed through the merger of the companies &apos;AmTech&apos; and &apos;Pure Engineering.</target>
       </segment>
     </unit>
     <unit id="40358370771419318">
@@ -352,6 +352,90 @@
       <segment state="initial">
         <source>© 2024 Urban Vision. Wszystkie prawa zastrzeżone.</source>
         <target>© 2024 Urban Vision. All rights reserved.</target>
+      </segment>
+    </unit>
+    <unit id="2039032028521293405">
+      <segment state="initial">
+        <source>Warunki Prywatności</source>
+        <target>Privacy Policy</target>
+      </segment>
+    </unit>
+    <unit id="4568801660238319132">
+      <segment state="initial">
+        <source>1) Postanowienia ogólne</source>
+        <target>1) General Terms and Conditions</target>
+      </segment>
+    </unit>
+    <unit id="1984012811225505118">
+      <segment state="initial">
+        <source> Niniejsza Polityka Prywatności określa zasady przetwarzania danych osobowych oraz prawa Użytkowników, zawiera informacje dotyczące Administratora Danych Osobowych, a także wykorzystania plików cookie. Dane osobowe Użytkowników są chronione przez MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ zgodnie z przepisami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) oraz Sprostowania do Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) oraz Ustawy z dnia 10 maja 2018 r. o ochronie danych osobowych. </source>
+        <target> This Privacy Policy defines the principles of personal data processing and the rights of Users, contains information regarding the Data Controller, as well as the use of cookies. The personal data of Users is protected by MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ in accordance with the provisions of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), as well as the Correction to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation), and the Act of 10 May 2018 on the protection of personal data.</target>
+      </segment>
+    </unit>
+    <unit id="3778613158132542547">
+      <segment state="initial">
+        <source>2) Podstawowe Pojęcia</source>
+        <target>2) Fundamental Concepts</target>
+      </segment>
+    </unit>
+    <unit id="1622191302709820221">
+      <segment state="initial">
+        <source> Administrator danych osobowych – MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, UL. ELBLĄSKA 14, 01-737 WARSZAWA.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> RODO – Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE. Ustawa – ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych. </source>
+        <target> Personal Data Controller – MCM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, UL. ELBLĄSKA 14, 01-737 WARSZAWA.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> GDPR - Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC. Act - Act of 10 May 2018 on the protection of personal data.</target>
+      </segment>
+    </unit>
+    <unit id="906912328949428937">
+      <segment state="initial">
+        <source>3) Cel Przetwarzania Danych Osobowych</source>
+        <target>3) Purpose of Personal Data Processing</target>
+      </segment>
+    </unit>
+    <unit id="4466996909212379717">
+      <segment state="initial">
+        <source> Badanie satysfakcji Użytkownika oraz marketing promujący Administratora i jego produkty oraz usługi, co stanowi spełnienie warunku zgodności z prawem przetwarzania danych, określonego w art. 6 ust. 1 lit. f RODO, jako niezbędnych do celów wynikających z prawnie uzasadnionych interesów realizowanych przez Administratora. </source>
+        <target> User satisfaction research and marketing promoting the Controller and its products and services, which fulfills the requirement of compliance with the lawfulness of data processing as defined in Article 6(1)(f) of the GDPR, as necessary for the purposes of legitimate interests pursued by the Controller.</target>
+      </segment>
+    </unit>
+    <unit id="3937950154165806909">
+      <segment state="initial">
+        <source>4) Odbiorca Danych Osobowych</source>
+        <target>4) Recipient of Personal Data</target>
+      </segment>
+    </unit>
+    <unit id="7224685198752994439">
+      <segment state="initial">
+        <source> Administrator może przekazać dane osobowe, wskazane w pkt 16, podmiotom uprawnionym do otrzymania danych osobowych na podstawie przepisów prawa, decyzji organu administracji publicznej lub orzeczenia sądowego. </source>
+        <target> The Controller may disclose personal data specified in point 16 to entities authorized to receive personal data under the provisions of law, decisions of public administration authorities, or court judgments. </target>
+      </segment>
+    </unit>
+    <unit id="3450719482199979609">
+      <segment state="initial">
+        <source>5) Pliki Cookie</source>
+        <target>5) Cookie Files</target>
+      </segment>
+    </unit>
+    <unit id="2995189249117897866">
+      <segment state="initial">
+        <source> Plik cookie to krótki tekst wysyłany do przeglądarki internetowej przez serwis internetowy, który w danej chwili odwiedza Użytkownik. Dzięki czemu serwis zapamiętuje informacje o ustawieniach przeglądarki, a następna wizyta Użytkownika na tej stronie jest bardziej efektywna, pozwalając na łatwiejsze logowanie do usług Administratora. Administrator może przetwarzać dane zawarte w plikach cookie, w następującym celu: dostosowanie funkcjonalności dostarczanych przez Administratora, zgodnie z oczekiwaniami Użytkownika, wliczając treści reklamowe i statystyki, co odbywa się anonimowo. </source>
+        <target> A cookie is a small piece of text sent to the web browser by a website that the User is visiting at the moment. This allows the website to remember information about the browser settings, making the User's next visit to the site more efficient and enabling easier login to the services provided by the Controller. The Controller may process data contained in cookie files for the following purpose: adjusting the functionality provided by the Controller according to the User's expectations, including advertising content and statistics, which is done anonymously.</target>
+      </segment>
+    </unit>
+    <unit id="8127133493739855106">
+      <segment state="initial">
+        <source>6) Postanowienia Końcowe</source>
+        <target>6)Final Provisions</target>
+      </segment>
+    </unit>
+    <unit id="7823807404890555039">
+      <segment state="initial">
+        <source> W sprawach nieuregulowanych w Polityce Prywatności stosuje się przepisy prawa polskiego. Administrator może dokonać zmian w Polityce Prywatności w każdym czasie. Użytkownik odwiedzający stronę Administratora po raz pierwszy, zostanie poproszony o zapoznanie się z Polityką Prywatności. W każdym czasie wizyty na stronie internetowej Administratora, Użytkownik może także zapoznać się z aktualną Polityką Prywatności, stosując dedykowany odnośnik na dole strony. </source>
+        <target> In matters not regulated in the Privacy Policy, the provisions of Polish law shall apply. The Controller may make changes to the Privacy Policy at any time. Users visiting the Controller's website for the first time will be asked to familiarize themselves with the Privacy Policy. At any time during visits to the Controller's website, Users may also review the current Privacy Policy by using the dedicated link at the bottom of the page.</target>
+      </segment>
+    </unit>
+    <unit id="1023002740187135452">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;bi bi-x-lg me-2&quot;&gt;" dispEnd="&lt;/i&gt; &lt;!-- X icon --&gt;"/> Odrzuć </source>
+        <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;bi bi-x-lg me-2&quot;&gt;" dispEnd="&lt;/i&gt; &lt;!-- X icon --&gt;"/> Reject </target>
       </segment>
     </unit>
   </file>
