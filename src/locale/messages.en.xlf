@@ -210,12 +210,6 @@
         <target>Installation of CCTV industrial television visual systems</target>
       </segment>
     </unit>
-    <unit id="918042894669037197">
-      <segment state="initial">
-        <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemy od nowa oraz modernizujemy istniejące sieci CCTV. Realizujemy systemy oparte na okablowaniu Coax/Kable koncentryczne oraz UTP/FTP/światłowody, systemy AHD, HDCVI, TVI, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentację niezbędną do prawidłowej eksploatacji systemu. </source>
-        <target> We carry out installations in both &quot;new&quot; and &quot;old&quot; buildings. We install systems from scratch as well as modernize existing CCTV networks. We implement systems based on Coax/Coaxial Cable and UTP/FTP/Fiber Optic cabling, AHD, HDCVi, TVi, CVBS, and IP systems. For each project, we prepare documentation essential for the proper operation of the system. </target>
-      </segment>
-    </unit>
     <unit id="5826827949548311490">
       <segment state="initial">
         <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;material-icons md-48 align-middle fs-3&quot;&gt;" dispEnd="&lt;/i&gt;">videocam</pc> Instalacja systemów wizyjnych telewizji przemysłowej CCTV </source>
@@ -417,7 +411,7 @@
     <unit id="2995189249117897866">
       <segment state="initial">
         <source> Plik cookie to krótki tekst wysyłany do przeglądarki internetowej przez serwis internetowy, który w danej chwili odwiedza Użytkownik. Dzięki czemu serwis zapamiętuje informacje o ustawieniach przeglądarki, a następna wizyta Użytkownika na tej stronie jest bardziej efektywna, pozwalając na łatwiejsze logowanie do usług Administratora. Administrator może przetwarzać dane zawarte w plikach cookie, w następującym celu: dostosowanie funkcjonalności dostarczanych przez Administratora, zgodnie z oczekiwaniami Użytkownika, wliczając treści reklamowe i statystyki, co odbywa się anonimowo. </source>
-        <target> A cookie is a small piece of text sent to the web browser by a website that the User is visiting at the moment. This allows the website to remember information about the browser settings, making the User's next visit to the site more efficient and enabling easier login to the services provided by the Controller. The Controller may process data contained in cookie files for the following purpose: adjusting the functionality provided by the Controller according to the User's expectations, including advertising content and statistics, which is done anonymously.</target>
+        <target> A cookie is a small piece of text sent to the web browser by a website that the User is visiting at the moment. This allows the website to remember information about the browser settings, making the User&apos;s next visit to the site more efficient and enabling easier login to the services provided by the Controller. The Controller may process data contained in cookie files for the following purpose: adjusting the functionality provided by the Controller according to the User&apos;s expectations, including advertising content and statistics, which is done anonymously.</target>
       </segment>
     </unit>
     <unit id="8127133493739855106">
@@ -429,13 +423,19 @@
     <unit id="7823807404890555039">
       <segment state="initial">
         <source> W sprawach nieuregulowanych w Polityce Prywatności stosuje się przepisy prawa polskiego. Administrator może dokonać zmian w Polityce Prywatności w każdym czasie. Użytkownik odwiedzający stronę Administratora po raz pierwszy, zostanie poproszony o zapoznanie się z Polityką Prywatności. W każdym czasie wizyty na stronie internetowej Administratora, Użytkownik może także zapoznać się z aktualną Polityką Prywatności, stosując dedykowany odnośnik na dole strony. </source>
-        <target> In matters not regulated in the Privacy Policy, the provisions of Polish law shall apply. The Controller may make changes to the Privacy Policy at any time. Users visiting the Controller's website for the first time will be asked to familiarize themselves with the Privacy Policy. At any time during visits to the Controller's website, Users may also review the current Privacy Policy by using the dedicated link at the bottom of the page.</target>
+        <target> In matters not regulated in the Privacy Policy, the provisions of Polish law shall apply. The Controller may make changes to the Privacy Policy at any time. Users visiting the Controller&apos;s website for the first time will be asked to familiarize themselves with the Privacy Policy. At any time during visits to the Controller&apos;s website, Users may also review the current Privacy Policy by using the dedicated link at the bottom of the page.</target>
       </segment>
     </unit>
     <unit id="1023002740187135452">
       <segment state="initial">
         <source><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;bi bi-x-lg me-2&quot;&gt;" dispEnd="&lt;/i&gt; &lt;!-- X icon --&gt;"/> Odrzuć </source>
         <target><pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;bi bi-x-lg me-2&quot;&gt;" dispEnd="&lt;/i&gt; &lt;!-- X icon --&gt;"/> Reject </target>
+      </segment>
+    </unit>
+    <unit id="4640194963110389133">
+      <segment state="initial">
+        <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. </source>
+        <target> We carry out installations in both "new" and "old" buildings. We install systems from scratch as well as modernize existing CCTV networks. We implement systems based on Coax/Coaxial Cable and UTP/FTP/Fiber Optic cabling, AHD, HDCVi, TVi, CVBS, and IP systems. For each project, we prepare documentation essential for the proper operation of the system. </target>
       </segment>
     </unit>
   </file>

@@ -276,11 +276,6 @@
         <source>Instalacja systemów alarmowych</source>
       </segment>
     </unit>
-    <unit id="918042894669037197">
-      <segment>
-        <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemy od nowa oraz modernizujemy istniejące sieci CCTV. Realizujemy systemy oparte na okablowaniu Coax/Kable koncentryczne oraz UTP/FTP/światłowody, systemy AHD, HDCVI, TVI, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentację niezbędną do prawidłowej eksploatacji systemu. </source>
-      </segment>
-    </unit>
     <unit id="1034645408109734905">
       <segment>
         <source>© 2024 Urban Vision. Wszystkie prawa zastrzeżone.</source>
@@ -364,6 +359,11 @@
     <unit id="906912328949428937">
       <segment>
         <source>3) Cel Przetwarzania Danych Osobowych</source>
+      </segment>
+    </unit>
+    <unit id="4640194963110389133">
+      <segment>
+        <source> Wykonujemy instalacje w „nowym” jak i „starym” budownictwie. Instalujemy systemu od nowa oraz modernizujemy istniejące sieci CCTV. Wykonujemy systemy oparte na okablowaniu Coax/Kable Koncentryczny oraz UTP/FTP/ Światłowód, systemy AHD, HDCVi, TVi, CVBS oraz systemy IP. Przy każdej realizacji sporządzamy dokumentacje nie zbędą do pomniejszej eksploatacji systemu. </source>
       </segment>
     </unit>
   </file>
